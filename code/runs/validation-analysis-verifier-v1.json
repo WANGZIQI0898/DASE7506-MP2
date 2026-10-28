@@ -1,0 +1,562 @@
+{
+  "n": 798,
+  "method": {
+    "correct": 735,
+    "accuracy": 92.1053
+  },
+  "vote_longest_baseline": {
+    "correct": 694,
+    "accuracy": 86.9674
+  },
+  "paired_bootstrap_method_minus_baseline": {
+    "mean_percentage_points": 5.1331,
+    "ci95_percentage_points": [
+      3.3835,
+      7.0175
+    ],
+    "bootstrap_samples": 5000
+  },
+  "confidence_quintiles": [
+    {
+      "bin": 1,
+      "n": 160,
+      "mean_score_margin": 0.1579,
+      "accuracy": 91.875
+    },
+    {
+      "bin": 2,
+      "n": 159,
+      "mean_score_margin": 0.5684,
+      "accuracy": 94.3396
+    },
+    {
+      "bin": 3,
+      "n": 160,
+      "mean_score_margin": 1.113,
+      "accuracy": 90.0
+    },
+    {
+      "bin": 4,
+      "n": 159,
+      "mean_score_margin": 1.8887,
+      "accuracy": 91.8239
+    },
+    {
+      "bin": 5,
+      "n": 160,
+      "mean_score_margin": 4.019,
+      "accuracy": 92.5
+    }
+  ],
+  "structural_signal_correlations": [
+    {
+      "feature": "answer_group_size",
+      "mean_correct": 0.8572,
+      "mean_incorrect": 0.28834,
+      "correlation_with_correctness": 0.75229,
+      "ranker_weight": 0.79066
+    },
+    {
+      "feature": "answer_is_top_group",
+      "mean_correct": 0.97517,
+      "mean_incorrect": 0.41753,
+      "correlation_with_correctness": 0.65182,
+      "ranker_weight": 0.72715
+    },
+    {
+      "feature": "answer_group_count",
+      "mean_correct": 0.34592,
+      "mean_incorrect": 0.59955,
+      "correlation_with_correctness": -0.53809,
+      "ranker_weight": 0.0
+    },
+    {
+      "feature": "parsed_final_answer",
+      "mean_correct": 1.0,
+      "mean_incorrect": 0.79768,
+      "correlation_with_correctness": 0.40132,
+      "ranker_weight": 1.09362
+    },
+    {
+      "feature": "log_answer_mentions",
+      "mean_correct": 1.22485,
+      "mean_incorrect": 0.89231,
+      "correlation_with_correctness": 0.30632,
+      "ranker_weight": 0.34775
+    },
+    {
+      "feature": "boxed_final_answer",
+      "mean_correct": 0.79512,
+      "mean_incorrect": 0.62887,
+      "correlation_with_correctness": 0.16575,
+      "ranker_weight": 0.19783
+    },
+    {
+      "feature": "log_words",
+      "mean_correct": 3.76981,
+      "mean_incorrect": 3.94838,
+      "correlation_with_correctness": -0.16306,
+      "ranker_weight": -0.02507
+    },
+    {
+      "feature": "log_characters",
+      "mean_correct": 6.04324,
+      "mean_incorrect": 6.20205,
+      "correlation_with_correctness": -0.15799,
+      "ranker_weight": 0.0633
+    },
+    {
+      "feature": "log_math_operators",
+      "mean_correct": 2.91688,
+      "mean_incorrect": 3.20182,
+      "correlation_with_correctness": -0.15122,
+      "ranker_weight": -0.15771
+    },
+    {
+      "feature": "log_digits",
+      "mean_correct": 2.83874,
+      "mean_incorrect": 2.91254,
+      "correlation_with_correctness": -0.08571,
+      "ranker_weight": 0.53219
+    },
+    {
+      "feature": "length_rank",
+      "mean_correct": 0.51587,
+      "mean_incorrect": 0.4506,
+      "correlation_with_correctness": 0.07512,
+      "ranker_weight": -0.0172
+    },
+    {
+      "feature": "relative_length",
+      "mean_correct": 0.03784,
+      "mean_incorrect": -0.11782,
+      "correlation_with_correctness": 0.06677,
+      "ranker_weight": -0.14774
+    },
+    {
+      "feature": "log_math_blocks",
+      "mean_correct": 1.08034,
+      "mean_incorrect": 0.99079,
+      "correlation_with_correctness": 0.06178,
+      "ranker_weight": -0.13002
+    },
+    {
+      "feature": "log_lines",
+      "mean_correct": 3.0939,
+      "mean_incorrect": 3.16606,
+      "correlation_with_correctness": -0.06142,
+      "ranker_weight": 0.08014
+    },
+    {
+      "feature": "hash_answer_marker",
+      "mean_correct": 0.27732,
+      "mean_incorrect": 0.24227,
+      "correlation_with_correctness": 0.03391,
+      "ranker_weight": -0.09598
+    },
+    {
+      "feature": "question_number_coverage",
+      "mean_correct": 0.95502,
+      "mean_incorrect": 0.94556,
+      "correlation_with_correctness": 0.02445,
+      "ranker_weight": 0.5106
+    },
+    {
+      "feature": "question_word_coverage",
+      "mean_correct": 0.59273,
+      "mean_incorrect": 0.58551,
+      "correlation_with_correctness": 0.01878,
+      "ranker_weight": 0.04975
+    },
+    {
+      "feature": "answer_label_marker",
+      "mean_correct": 0.82781,
+      "mean_incorrect": 0.81186,
+      "correlation_with_correctness": 0.01797,
+      "ranker_weight": 0.07119
+    },
+    {
+      "feature": "log_fraction_tokens",
+      "mean_correct": 0.36732,
+      "mean_incorrect": 0.38295,
+      "correlation_with_correctness": -0.01246,
+      "ranker_weight": 0.28156
+    },
+    {
+      "feature": "log_equals",
+      "mean_correct": 1.60692,
+      "mean_incorrect": 1.61242,
+      "correlation_with_correctness": -0.00524,
+      "ranker_weight": 0.00418
+    }
+  ],
+  "wrong_question_count": 63,
+  "error_categories": {
+    "followed_more_votes_than_correct_answer": 33,
+    "tied_top_group_wrong_choice": 22,
+    "equal_support_non_top_groups": 6,
+    "selected_less_supported_answer": 2
+  },
+  "errors_by_unique_answer_count": {
+    "2": 23,
+    "3": 27,
+    "4": 13
+  },
+  "highest_confidence_errors": [
+    {
+      "id": "gsm8k:fd23d86676d457a5edd2ad70cc5accd6b3e3c36e975e3b85316a5e7990357a36",
+      "question": "Andy walks 50 meters from his house to school. After school, he comes back to the house and goes to the market. If he walks 140 meters in total, how many meters is the distance between the house and the market?",
+      "selected": 1,
+      "selected_answer": "45",
+      "correct_answer": "40",
+      "candidate_answers": [
+        null,
+        "45",
+        "40",
+        null
+      ],
+      "answer_counts": {
+        "45": 1,
+        "40": 1
+      },
+      "selected_answer_frequency": 1,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 1,
+      "category": "tied_top_group_wrong_choice",
+      "score_margin": 5.0255,
+      "selected_text": "We are told:\n\n- Andy walks **50 meters** from his house to school.\n- Then he **returns** to the house and goes to the **market**.\n- The **total distance** he walks is **140 meters**.\n\nLet the distance between the house and the market be $ x $ meters.\n\n- Andy walks **50 meters** to school.\n- Then he walks **x meters** back home.\n- Then he walks **x meters** to the market.\n\nSo the total distance is:\n\n$$\n50 + x + x = 50 + 2x = 140\n$$\n\nSolving for $ x $:\n\n$$\n2x = 140 - 50 = 90\n$$\n$$\nx = \\frac{90}{2} = 45\n$$\n\n### Final Answer:\n\n$$\n\\boxed{45}\n$$"
+    },
+    {
+      "id": "gsm8k:00e31b0a611584b48fcc02112a30d33ddf10e1aeab28fe502fc3e6662cd80d82",
+      "question": "It takes a butterfly egg 120 days to become a butterfly. If each butterfly spends 3 times as much time as a larva as in a cocoon, how long does each butterfly spend in a cocoon?",
+      "selected": 1,
+      "selected_answer": "90",
+      "correct_answer": "30",
+      "candidate_answers": [
+        "180",
+        "90",
+        null,
+        "30"
+      ],
+      "answer_counts": {
+        "180": 1,
+        "90": 1,
+        "30": 1
+      },
+      "selected_answer_frequency": 1,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 1,
+      "category": "tied_top_group_wrong_choice",
+      "score_margin": 4.7763,
+      "selected_text": "We are told:\n\n- A butterfly egg takes **120 days** to become a butterfly.\n- Each butterfly spends **3 times as much time** as a larva as in a cocoon.\n\nLet’s define:\n\n- $ x $ = time spent in a **cocoon** (in days)\n- $ y $ = time spent in a **larva** (in days)\n\nWe are told:\n\n- $ x = 3y $\n\nWe also know that:\n\n- A butterfly egg takes **120 days** to become a butterfly.\n\nSo, the total time a butterfly spends is:\n\n$$\n120 = x + y\n$$\n\nSubstitute $ x = 3y $:\n\n$$\n120 = 3y + y = 4y\n$$\n\n$$\ny = \\frac{120}{4} = 30\n$$\n\n$$\nx = 3y = 3 \\times 30 = 90\n$$\n\n### ✅ Final Answer:\n$$\n\\boxed{90}\n$$"
+    },
+    {
+      "id": "gsm8k:8d3fe5e63aad094e7ab6c20284db6982e5c97d665e50d32b7af477b05f06db16",
+      "question": "Issac has to buy pens and pencils for the upcoming school year. Issac buys 108 writing utensils total. He buys 12 more than 5 times the number of pencils than pens. How many pens did Issac buy?",
+      "selected": 2,
+      "selected_answer": "92",
+      "correct_answer": "16",
+      "candidate_answers": [
+        "16",
+        "92",
+        "92",
+        "16"
+      ],
+      "answer_counts": {
+        "16": 2,
+        "92": 2
+      },
+      "selected_answer_frequency": 2,
+      "correct_answer_frequency": 2,
+      "top_answer_frequency": 2,
+      "category": "tied_top_group_wrong_choice",
+      "score_margin": 4.7717,
+      "selected_text": "Let’s define:\n\n- Let $ x $ be the number of pens.\n- Let $ y $ be the number of pencils.\n\nWe are told:\n\n1. Total writing utensils: $ x + y = 108 $\n2. He buys 12 more than 5 times the number of pencils than pens: $ 5y + 12 = x $\n\n---\n\nWe now solve the system of equations:\n\n1. $ x + y = 108 $\n2. $ x = 5y + 12 $\n\nSubstitute equation (2) into equation (1):\n\n$$\n(5y + 12) + y = 108\n$$\n\n$$\n6y + 12 = 108\n$$\n\n$$\n6y = 96\n$$\n\n$$\ny = 16\n$$\n\nNow substitute $ y = 16 $ back into equation (2):\n\n$$\nx = 5(16) + 12 = 80 + 12 = 92\n$$\n\n---\n\n### Final Answer:\n$$\n\\boxed{92}\n$$"
+    },
+    {
+      "id": "gsm8k:8ddc41679e6ceab9c4cd0b54dce16744eebef142a7a8797ae0a3717050e9c1fa",
+      "question": "Four days ago, Carlos bought a bag of gummy worms. Every day he ate half of the remaining gummy worms. After eating half of the remainder on the fourth day, he now has 4 gummy worms left. How many gummy worms were in the bag when Carlos bought it?",
+      "selected": 1,
+      "selected_answer": "4",
+      "correct_answer": "64",
+      "candidate_answers": [
+        "4",
+        "4",
+        null,
+        "64"
+      ],
+      "answer_counts": {
+        "4": 2,
+        "64": 1
+      },
+      "selected_answer_frequency": 2,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 2,
+      "category": "followed_more_votes_than_correct_answer",
+      "score_margin": 4.4758,
+      "selected_text": "We are told that:\n\n- Carlos bought a bag of gummy worms.\n- Every day he eats half of the remaining gummy worms.\n- After eating half of the remainder on the **fourth day**, he has **4 gummy worms left**.\n\nWe need to find how many gummy worms were in the bag when Carlos bought it.\n\n---\n\n### Step-by-step process:\n\nLet’s define the number of gummy worms in the bag as $ x $.\n\n#### Day 1:\n- Carlos eats half of the remaining gummy worms.\n- So, after eating, he has $ x - \\frac{x}{2} = \\frac{x}{2} $ gummy worms left.\n\n#### Day 2:\n- He eats half of the remaining gummy worms.\n- So, after eating, he has $ \\frac{x}{2} - \\frac{x}{4} = \\frac{x}{4} $ gummy worms left.\n\n#### Day 3:\n- He eats half of the remaining gummy worms.\n- So, after eating, he has $ \\frac{x}{4} - \\frac{x}{8} = \\frac{x}{8} $ gummy worms left.\n\n#### Day 4:\n- He eats half of the remaining gummy worms.\n- So, after eating, he has $ \\frac{x}{8} - \\frac{x}{16} = \\frac{3x}{16} $ gummy worms left.\n\nWe are told that after eating on the **fourth day**, he has **4 gummy worms** left.\n\nSo:\n\n$$\n\\frac{3x}{16} = 4\n$$\n\nSolve for $ x $:\n\n$$\nx = 4 \\times \\frac{16}{3} = \\frac{64}{3}\n$$\n\nBut this is not an integer. That suggests we made"
+    },
+    {
+      "id": "gsm8k:23362ebace3d656a190008ccbe883f572f150f9ba5f32f98336611e050abb075",
+      "question": "A plumber is trying to decide which of three different jobs he should take to make the most money.  The first job involves fixing three toilets and three sinks at an apartment complex.  The second involves two toilets and five sinks at a different apartment complex.  The third involves fixing one toilet, two showers and three sinks at a third apartment complex.  If the plumber charges $30 to fix a sink, $40 to fix a shower and $50 to fix a toilet, what is the most money the plumber can earn if he can only choose one of these three jobs?",
+      "selected": 1,
+      "selected_answer": "3",
+      "correct_answer": "250",
+      "candidate_answers": [
+        "250",
+        "3",
+        null,
+        "360"
+      ],
+      "answer_counts": {
+        "250": 1,
+        "3": 1,
+        "360": 1
+      },
+      "selected_answer_frequency": 1,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 1,
+      "category": "tied_top_group_wrong_choice",
+      "score_margin": 4.0904,
+      "selected_text": "We are given the following information:\n\n- **Job 1**: 3 toilets, 3 sinks  \n- **Job 2**: 2 toilets, 5 sinks  \n- **Job 3**: 1 toilet, 2 showers, 3 sinks  \n\nThe plumber charges:\n\n- $30 per sink  \n- $40 per shower  \n- $50 per toilet  \n\nWe are to find the **maximum** amount the plumber can earn by choosing **one** of the three jobs.\n\n### Step 1: Calculate the total earnings for each job\n\n#### **Job 1**:\n- 3 toilets × $50 = $150  \n- 3 sinks × $30 = $90  \n- **Total earnings**: $150 + $90 = **$240**\n\n#### **Job 2**:\n- 2 toilets × $50 = $100  \n- 5 sinks × $30 = $150  \n- **Total earnings**: $100 + $150 = **$250**\n\n#### **Job 3**:\n- 1 toilet × $50 = $50  \n- 2 showers × $40 = $80  \n- 3 sinks × $30 = $90  \n- **Total earnings**: $50 + $80 + $90 = **$220**\n\n### Step 2: Compare the earnings\n\n- Job 1: $240  \n- Job 2: $250  \n- Job 3: $220\n\n### Step 3: Choose the job with the highest earnings\n\n**Job 2** gives the **most money**.\n\n### Final Answer:\n\n$$\n\\boxed{250}\n$$"
+    },
+    {
+      "id": "gsm8k:d7261d3d3feec7b6f5adbb91ac09d278163b025fe77818d6b13b126c224af291",
+      "question": "Hansel makes $30,000 a year and just received a 10% raise.  Gretel makes the same amount as Hansel but received a 15% raise.  How much more money will Gretel make compared to Hansel?",
+      "selected": 1,
+      "selected_answer": "4500",
+      "correct_answer": "1500",
+      "candidate_answers": [
+        "4500",
+        "4500",
+        "1500",
+        "4500"
+      ],
+      "answer_counts": {
+        "4500": 3,
+        "1500": 1
+      },
+      "selected_answer_frequency": 3,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 3,
+      "category": "followed_more_votes_than_correct_answer",
+      "score_margin": 3.4331,
+      "selected_text": "Hansel makes $30,000 and gets a 10% raise.  \nGretel makes the same amount as Hansel but gets a 15% raise.\n\n### Step 1: Calculate Gretel's raise\nGretel's raise = 15% of $30,000  \n= $0.15 × 30,000 = **$4,500**\n\n### Step 2: Calculate Gretel's total salary  \nGretel's total salary = $30,000 + $4,500 = **$34,500**\n\n### Step 3: Calculate how much more Gretel makes compared to Hansel  \nGretel's extra = $34,500 - $30,000 = **$4,500**\n\n### Final Answer:  \n$$\n\\boxed{4500}\n$$"
+    },
+    {
+      "id": "gsm8k:8446f360c0f9e7e8050ffe55615c9b6f8544bfdc3522e9d7afbf6d115bff5455",
+      "question": "Billy and Margaret are competing with each other to see who can swim 10 laps the fastest. Billy swims his first 5 laps in 2 minutes, swims the next 3 laps in 4 minutes, swims the next lap in 1 minute, then swims his final lap. Margaret finishes swimming all of her laps in 10 minutes. Billy wins the competition by finishing his laps 30 seconds before Margaret does. In seconds, how long did it take Billy to swim his final lap?",
+      "selected": 3,
+      "selected_answer": "180",
+      "correct_answer": "150",
+      "candidate_answers": [
+        "420",
+        "150",
+        "540",
+        "180"
+      ],
+      "answer_counts": {
+        "420": 1,
+        "150": 1,
+        "540": 1,
+        "180": 1
+      },
+      "selected_answer_frequency": 1,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 1,
+      "category": "tied_top_group_wrong_choice",
+      "score_margin": 3.3443,
+      "selected_text": "We are given the following:\n\n- Billy swims **10 laps** in **2 minutes** for the first 5 laps, **4 minutes** for the next 3 laps, and **1 minute** for the final lap.\n- Margaret swims all 10 laps in **10 minutes**.\n- Billy finishes his laps **30 seconds before** Margaret does.\n\nLet’s calculate the total time Billy takes to swim all 10 laps.\n\n### Step 1: Total time for Billy\n\n- First 5 laps: 2 minutes\n- Next 3 laps: 4 minutes\n- Final lap: 1 minute\n\nTotal time for Billy = $2 + 4 + 1 = 7$ minutes\n\nConvert to seconds: $7 \\times 60 = 420$ seconds\n\n### Step 2: Time for Margaret\n\nMargaret finishes all 10 laps in **10 minutes** = $10 \\times 60 = 600$ seconds\n\n### Step 3: Difference in time\n\nBilly finishes **30 seconds before** Margaret does.\n\nSo, the difference in time is:\n\n$$\n600 - 420 = 180 \\text{ seconds}\n$$\n\nThis means Billy's final lap took **180 seconds**.\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{180}\n$$"
+    },
+    {
+      "id": "gsm8k:036ca9fc437510004666c0748ef217f4d6063f1eba062fd8e8f6f58c4dc516aa",
+      "question": "During the Easter egg hunt, Kevin found 5 eggs, Bonnie found 13 eggs, George found 9 and Cheryl found 56.  How many more eggs did Cheryl find than the other three children found?",
+      "selected": 2,
+      "selected_answer": "42",
+      "correct_answer": "29",
+      "candidate_answers": [
+        "34",
+        "29",
+        "42",
+        "42"
+      ],
+      "answer_counts": {
+        "34": 1,
+        "29": 1,
+        "42": 2
+      },
+      "selected_answer_frequency": 2,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 2,
+      "category": "followed_more_votes_than_correct_answer",
+      "score_margin": 3.1011,
+      "selected_text": "Kevin found 5 eggs, Bonnie found 13 eggs, and George found 9 eggs. Cheryl found 56 eggs.\n\nTo find how many more eggs Cheryl found than the others:\n\n$$\n56 - (5 + 9) = 56 - 14 = 42\n$$\n\n### Final Answer:\n$$\n\\boxed{42}\n$$"
+    },
+    {
+      "id": "gsm8k:3034336136ee237cb096c3018367a2bee328ed40dddef9105f9f07440e8aac70",
+      "question": "After trick-or-treating, Brent dumped his candy on the table.  He had received 5 Kit-Kat bars, three times that amount in Hershey kisses, 8 boxes of Nerds,  and 11 lollipops.  He also had 10 Baby Ruths and half that amount in Reese Peanut butter cups.  After giving his little sister 5 lollipops, how many pieces of candy did Brent have left?",
+      "selected": 2,
+      "selected_answer": "58",
+      "correct_answer": "49",
+      "candidate_answers": [
+        "53",
+        "49",
+        "58",
+        "58"
+      ],
+      "answer_counts": {
+        "53": 1,
+        "49": 1,
+        "58": 2
+      },
+      "selected_answer_frequency": 2,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 2,
+      "category": "followed_more_votes_than_correct_answer",
+      "score_margin": 3.0886,
+      "selected_text": "Let's break down the candy Brent had and then subtract the 5 lollipops he gave to his sister.\n\n- **Kit-Kats**: 5  \n- **Hershey kisses**: 3 × 5 = 15  \n- **Nerds**: 8  \n- **Lollipops**: 11  \n- **Baby Ruths**: 10  \n- **Reese Peanut butter cups**: 10 × 0.5 = 5\n\nNow, add all the candies together:\n\n$$\n5 + 15 + 8 + 11 + 10 + 5 = 63\n$$\n\nAfter giving his sister 5 lollipops, the total candies left are:\n\n$$\n63 - 5 = \\boxed{58}\n$$\n\n#### <numeric answer> = 58"
+    },
+    {
+      "id": "gsm8k:76b4d47478e7bb8d5ecd4fb38205c77f55b72528bb0902aecbb0a26c5abdf0e2",
+      "question": "The ages of three brothers are consecutive integers with the sum of 96.  How old is the youngest brother?",
+      "selected": 3,
+      "selected_answer": "32",
+      "correct_answer": "31",
+      "candidate_answers": [
+        "31",
+        "32",
+        null,
+        "32"
+      ],
+      "answer_counts": {
+        "31": 1,
+        "32": 2
+      },
+      "selected_answer_frequency": 2,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 2,
+      "category": "followed_more_votes_than_correct_answer",
+      "score_margin": 2.9974,
+      "selected_text": "We are told:\n\n- The ages of three brothers are **consecutive integers**.\n- Their **sum is 96**.\n\nLet the ages of the three brothers be:\n\n- $ a $ (youngest)\n- $ a + d $ (middle)\n- $ a + 2d $ (oldest)\n\nSo the sum is:\n\n$$\na + (a + d) + (a + 2d) = 96\n$$\n\nSimplify:\n\n$$\n3a + 3d = 96\n$$\n\nDivide both sides by 3:\n\n$$\na + d = 32\n$$\n\nNow we know the **youngest brother's age** is $ a $, and the **middle brother's age** is $ a + d = 32 $.\n\nSo, the **youngest brother is 32 years old**.\n\n#### Final Answer: **32**"
+    },
+    {
+      "id": "gsm8k:259982b93458414b42b8fc9c5b109b9788076e7cc0bc1fcb972f2e4ace85f99c",
+      "question": "A frog pond has five frogs living in it. Some frogs laid eggs, and now there are three times as many tadpoles growing into more frogs as there are frogs. Two-thirds of the tadpoles will survive to maturity as frogs. The pond can only sustain eight frogs. How many frogs will have to find a new pond when the tadpoles grow up?",
+      "selected": 2,
+      "selected_answer": "3",
+      "correct_answer": "7",
+      "candidate_answers": [
+        "5",
+        "1",
+        "3",
+        "7"
+      ],
+      "answer_counts": {
+        "5": 1,
+        "1": 1,
+        "3": 1,
+        "7": 1
+      },
+      "selected_answer_frequency": 1,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 1,
+      "category": "tied_top_group_wrong_choice",
+      "score_margin": 2.8844,
+      "selected_text": "We are given the following information:\n\n- There are **5 frogs** initially.\n- **Three times as many tadpoles** as frogs are now:  \n  $ 3 \\times 5 = 15 $ tadpoles.\n- **Two-thirds of the tadpoles** will survive to maturity as frogs.\n- The **pond can only sustain 8 frogs**.\n\n---\n\n### Step 1: Calculate the number of tadpoles that will survive to maturity\n\n$$\n\\frac{2}{3} \\times 15 = 10\n$$\n\nSo, **10 tadpoles** will mature and become frogs.\n\n---\n\n### Step 2: Subtract the number of frogs that will become tadpoles from the total number of tadpoles\n\n$$\n15 - 10 = 5\n$$\n\nSo, **5 frogs** will become tadpoles.\n\n---\n\n### Step 3: Subtract the number of frogs that will become tadpoles from the total number of frogs that can stay\n\n$$\n8 - 5 = 3\n$$\n\nSo, **3 frogs** will have to find a new pond.\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{3}\n$$"
+    },
+    {
+      "id": "gsm8k:47ea45d3b36e2f74437274f20e0cd0e9f8957a8ad167f258281c1d3eeb52945e",
+      "question": "Texas Integrated School has 15 classes and has 20 students per class.  They added five more classes, how many students will they have now?",
+      "selected": 1,
+      "selected_answer": "700",
+      "correct_answer": "400",
+      "candidate_answers": [
+        "400",
+        "700",
+        "700",
+        "400"
+      ],
+      "answer_counts": {
+        "400": 2,
+        "700": 2
+      },
+      "selected_answer_frequency": 2,
+      "correct_answer_frequency": 2,
+      "top_answer_frequency": 2,
+      "category": "tied_top_group_wrong_choice",
+      "score_margin": 2.8101,
+      "selected_text": "We start with 15 classes, each containing 20 students:\n\n$$\n15 \\times 20 = 300 \\text{ students}\n$$\n\nThey added 5 more classes, so now there are:\n\n$$\n15 + 5 = 20 \\text{ new classes}\n$$\n\nEach class still has 20 students:\n\n$$\n20 \\times 20 = 400 \\text{ students}\n$$\n\nNow, total students:\n\n$$\n300 + 400 = \\boxed{700}\n$$\n\n#### <numeric answer> 700."
+    },
+    {
+      "id": "gsm8k:a43ceff49caf15e088df74a262ff9e052dd2007849dae692d80b5056583ef20f",
+      "question": "Yun had 20 paperclips initially, but then lost 12. Marion has 1/4 more than what Yun currently has, plus 7. How many paperclips does Marion have?",
+      "selected": 3,
+      "selected_answer": "17",
+      "correct_answer": "9",
+      "candidate_answers": [
+        "9",
+        "17",
+        "17",
+        "17"
+      ],
+      "answer_counts": {
+        "9": 1,
+        "17": 3
+      },
+      "selected_answer_frequency": 3,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 3,
+      "category": "followed_more_votes_than_correct_answer",
+      "score_margin": 2.3168,
+      "selected_text": "We are given the following:\n\n- Yun had **20 paperclips** initially.\n- Then lost **12**, so **Yun currently has** $ 20 - 12 = 8 $ paperclips.\n\n- Marion has **$ \\frac{1}{4} $ more than what Yun currently has, plus 7**.\n\nSo, we calculate:\n\n$$\n\\text{Marion's paperclips} = 8 + \\left( \\frac{1}{4} \\times 8 \\right) + 7\n$$\n\n$$\n= 8 + 2 + 7 = 17\n$$\n\n### Final Answer:\n$$\n\\boxed{17}\n$$"
+    },
+    {
+      "id": "gsm8k:c4b2d05db43fd445c39d02bf0522dc37d2f38fa09caadd817c7179ce5591c236",
+      "question": "After negotiating for the price of a phone, Karsyn bought a phone at 20% of the initial price. If the phone's initial price was $600, calculate how much she paid after negotiating.",
+      "selected": 1,
+      "selected_answer": "720",
+      "correct_answer": "480",
+      "candidate_answers": [
+        "720",
+        "720",
+        "120",
+        "480"
+      ],
+      "answer_counts": {
+        "720": 2,
+        "120": 1,
+        "480": 1
+      },
+      "selected_answer_frequency": 2,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 2,
+      "category": "followed_more_votes_than_correct_answer",
+      "score_margin": 2.2561,
+      "selected_text": "We are told:\n\n- The phone's **initial price** is **$600**.\n- Karsyn bought it at **20% of the initial price**.\n\n### Step 1: Calculate 20% of $600  \n$$\n0.20 \\times 600 = 120\n$$\n\n### Step 2: Add the amount she paid  \n$$\n120 + 600 = 720\n$$\n\n### Final Answer:  \n$$\n\\boxed{720}\n$$"
+    },
+    {
+      "id": "gsm8k:ff39505c84c884ef03ca6f7d63c1c91d0d81ebae31e35c18d7d6fc6e63a6e958",
+      "question": "Five percent of the 300 senior students got a full merit college scholarship and ten percent of them got a half merit scholarship. How many senior students did not get any scholarships?",
+      "selected": 2,
+      "selected_answer": "190",
+      "correct_answer": "255",
+      "candidate_answers": [
+        "567/2",
+        "255",
+        "190",
+        "567/2"
+      ],
+      "answer_counts": {
+        "567/2": 2,
+        "255": 1,
+        "190": 1
+      },
+      "selected_answer_frequency": 1,
+      "correct_answer_frequency": 1,
+      "top_answer_frequency": 2,
+      "category": "equal_support_non_top_groups",
+      "score_margin": 2.2401,
+      "selected_text": "We are given:\n\n- 5% of 300 senior students got a full merit scholarship:  \n  $ 0.05 \\times 300 = 15 $\n\n- 10% of the remaining 950 students got a half merit scholarship:  \n  $ 0.10 \\times 950 = 95 $\n\nSo, total number of students who got at least one scholarship is:  \n$$ 15 + 95 = 110 $$\n\nNow, subtract this from the total number of students:  \n$$ 300 - 110 = 190 $$\n\n### Final Answer:\n$$\n\\boxed{190}\n$$"
+    }
+  ]
+}

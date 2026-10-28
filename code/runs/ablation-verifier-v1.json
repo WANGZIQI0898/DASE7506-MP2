@@ -1,0 +1,86 @@
+{
+  "split": "validation",
+  "n": 798,
+  "fixed_config": {
+    "epochs": 80,
+    "learning_rate": 0.02,
+    "regularization": 0.001,
+    "seed": 20261026
+  },
+  "variants": [
+    {
+      "variant": "embedding_only",
+      "feature_count": 1024,
+      "train_accuracy": 93.2072,
+      "validation_accuracy": 89.7243,
+      "validation_correct": 716,
+      "full_minus_variant_percentage_points": 2.381,
+      "full_minus_variant_ci95": [
+        0.7519,
+        4.0132
+      ]
+    },
+    {
+      "variant": "structure_only",
+      "feature_count": 20,
+      "train_accuracy": 87.3607,
+      "validation_accuracy": 87.8446,
+      "validation_correct": 701,
+      "full_minus_variant_percentage_points": 4.2607,
+      "full_minus_variant_ci95": [
+        2.6316,
+        6.015
+      ]
+    },
+    {
+      "variant": "full",
+      "feature_count": 1044,
+      "train_accuracy": 93.4175,
+      "validation_accuracy": 92.1053,
+      "validation_correct": 735,
+      "full_minus_variant_percentage_points": 0.0,
+      "full_minus_variant_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "variant": "without_answer_consensus",
+      "feature_count": 1041,
+      "train_accuracy": 94.0273,
+      "validation_accuracy": 91.604,
+      "validation_correct": 731,
+      "full_minus_variant_percentage_points": 0.5013,
+      "full_minus_variant_ci95": [
+        -0.8772,
+        1.8797
+      ]
+    },
+    {
+      "variant": "without_length_style",
+      "feature_count": 1035,
+      "train_accuracy": 93.4595,
+      "validation_accuracy": 91.9799,
+      "validation_correct": 734,
+      "full_minus_variant_percentage_points": 0.1253,
+      "full_minus_variant_ci95": [
+        -0.2506,
+        0.5013
+      ]
+    },
+    {
+      "variant": "without_question_context",
+      "feature_count": 1042,
+      "train_accuracy": 93.4385,
+      "validation_accuracy": 91.9799,
+      "validation_correct": 734,
+      "full_minus_variant_percentage_points": 0.1253,
+      "full_minus_variant_ci95": [
+        -0.2506,
+        0.6266
+      ]
+    }
+  ],
+  "bootstrap_samples": 5000,
+  "elapsed_seconds": 23.7219
+}

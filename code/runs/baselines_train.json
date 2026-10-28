@@ -1,0 +1,27 @@
+{
+  "split": "train",
+  "n": 4755,
+  "baselines": {
+    "random": 74.8475,
+    "first": 75.3733,
+    "last": 75.6467,
+    "shortest": 70.347,
+    "longest": 77.7497,
+    "vote_first": 85.2576,
+    "vote_longest": 86.6246,
+    "vote_shortest": 84.0589
+  },
+  "diagnostics": {
+    "parseable_candidate_count": {
+      "1": 27,
+      "2": 81,
+      "3": 628,
+      "4": 4019
+    },
+    "top_vote_tie_questions": 545,
+    "top_group_contains_correct": 4388,
+    "top_vote_tie_contains_correct": 545,
+    "top_group_oracle_accuracy": 92.28180862250262,
+    "top_vote_tie_oracle_accuracy": 11.461619348054679
+  }
+}
